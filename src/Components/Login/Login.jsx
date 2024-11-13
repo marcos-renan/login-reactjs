@@ -3,12 +3,12 @@ import {FaUser, FaLock} from "react-icons/fa"
 
 const Login = () => {
   return (
-    <div >
+    <div className="flex flex-col">
       <div className="container">
         <form action="">
           <h1>Acessar conta</h1>
 
-          <div className="email">
+          <div className="">
             <input type="email" placeholder="E-mail" />
             <FaUser className="icon" />
           </div>
@@ -18,7 +18,7 @@ const Login = () => {
             <FaLock className="icon" />
           </div>
 
-          <button>Login</button>
+          <button className="">Login</button>
         </form>
       </div>
     </div>
